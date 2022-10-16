@@ -1,0 +1,59 @@
+/* Min Width 1400px */
+@media only screen and (min-width:1400px){
+    
+
+}
+
+/* Min Width 1200px */
+@media only screen and (min-width:1200px){
+
+    
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+   
+}
+
+/* Min Width 992px */
+@media only screen and (min-width:992px){
+
+}
+
+/* Max Width 1399px */
+@media only screen and (max-width:1399px){
+    
+}
+
+/* Max Width 1199px */
+@media only screen and (max-width:1199px){
+
+    
+}
+
+/* Max Width 991px */
+
+@media only screen and (max-width:991px){
+
+    
+}
+
+/* Max Width 575px */
+@media only screen and (max-width:575px){
+    
+    
+}
+
+/* Max Width 480px */
+@media only screen and (max-width:480px){
+
+    
+
+}
+
+/* Max Width 380px */
+@media only screen and (max-width:380px){
+
+    
+}
