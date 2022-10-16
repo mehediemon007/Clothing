@@ -4,17 +4,13 @@
         $(this).parent().toggleClass("active")
     })
 
-    $(".banner-main-content").owlCarousel({
+    $(".hero-banner-wpr").owlCarousel({
         items:1,
         loop:true,
         autoplay:true,
         dots:false,
-        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-        responsive:{
-             992:{
-                 nav:true
-             }
-        }
+        nav:true,
+        navText:['<i class="icofont-thin-left"></i>','<i class="icofont-thin-right"></i>'],
     })
 
     $(".banner-sub-content .sub-content-items").owlCarousel({
