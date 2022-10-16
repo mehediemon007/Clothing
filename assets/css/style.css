@@ -226,6 +226,52 @@ input::placeholder{
     margin-right: 50px;
 }
 
+/* Header */
+
+.clo-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-wpr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    max-width: 120px;
+}
+
+.nav-list li{
+    display: inline-block;
+    position: relative;
+}
+
+.nav-list li a{
+    display: block;
+    font-size: 18px;
+    font-weight: var(--font-weight-normal);
+    color: var(--white-color);
+    padding: 10px;
+}
+
+.header-icon{
+    display: inline-block;
+    font-size: 24px;
+    color: var(--white-color);
+    padding: 16px 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.header-icon:hover{
+    color: var(--white-color);
+    transform: translateY(-4px);
+}
+
 /* Hero Banner */
 
 .hero-banner-wpr{
