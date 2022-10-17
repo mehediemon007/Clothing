@@ -13,6 +13,40 @@
         navText:['<i class="icofont-thin-left"></i>','<i class="icofont-thin-right"></i>'],
     })
 
+    $("#new-collections").owlCarousel({
+        items: 1,
+        margin:10,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        dots: false,
+        nav: false,
+        navRewind: true,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        loop: true,
+        lazyLoad: true,
+        navText: ["<em class='porto-icon-chevron-left'></em>","<em class='porto-icon-chevron-right'></em>"],
+                    responsive: {
+          0: {
+            items:2
+          },
+          640: {
+            items:3
+          },
+          768: {
+            items:3
+          },
+          992: {
+            items:4
+          },
+          1200: {
+            items:4
+          }
+        }
+                    
+    });
+
     $(".banner-sub-content .sub-content-items").owlCarousel({
         items:4,
         loop:true,

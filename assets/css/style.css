@@ -226,6 +226,24 @@ input::placeholder{
     margin-right: 50px;
 }
 
+.title-center {
+    background: url(../images/slider-bar.png) center no-repeat;
+    font-size: 24px;
+    font-weight: 600 !important;
+    line-height: 42px;
+    margin: 0;
+    color: #313131;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-center .content {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+}
+
 /* Header */
 
 .clo-header{
@@ -306,6 +324,38 @@ input::placeholder{
 .hero-banner-wpr .owl-nav .owl-prev {
   left: 18px;
 }
+
+/* Category Banner */
+
+.clo-category-banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.clo-category-banner .single-banner{
+    position: relative;
+    overflow: hidden;
+}
+
+.clo-category-banner .single-banner::before {
+    content: "";
+    background-color: #ffffff4d;
+    position: absolute;
+    left: -100%;
+    display: block;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: left .4s ease 0s;
+}
+
+.clo-category-banner .single-banner:hover::before{
+    left: 0;
+}
+
+/* New Collection */
 
 /* Footer */
 
