@@ -716,6 +716,7 @@ input::placeholder{
     transform: translate3d(0, 20px, 0);
     opacity: 0;
     text-align: center;
+    transition: all 0.075s ease-out;
 }
 
 .product-thumb .extra-group > div > a{

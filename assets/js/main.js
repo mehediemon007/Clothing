@@ -542,9 +542,9 @@
 
     // Sticky Nav
 
-    const headerContainer = document.querySelector(".woo-main-nav");
+    const headerContainer = document.querySelector(".clo-header");
     window.onscroll = ()=>{
-            this.scrollY > 80 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+            this.scrollY > 100 ? headerContainer.style.display = 'none' : headerContainer.style.display = 'block';
     }
 
     const categoryBox = document.getElementsByClassName("single-sub-category");
