@@ -596,6 +596,7 @@ input::placeholder{
 
 .product-thumb .price span {
     line-height: 1;
+    font-weight: 600;
 }
 
 .product-thumb .buttons-wrapper {
@@ -1073,12 +1074,23 @@ ul.social-link li {
     grid-column-gap: 24px;
 }
 
+.product-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 0;
+    margin: 16px 0;
+    border-top: 1px solid rgba(221, 221, 221, 1);
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+}
+
 .sorting-menu {
     display: inline-block;
     background-color: var(--white-color);
     border-radius: 5px;
     border: 1px solid var(--text-color-light);
-    padding: 8px 0;
+    padding: 6px 0;
 }
 
 .product-toolbar .sorting-item {
@@ -1100,7 +1112,7 @@ ul.social-link li {
 }
 
 .view-widget .layout-icon {
-    font-size: 28px;
+    font-size: 24px;
     cursor: pointer;
 }
 
