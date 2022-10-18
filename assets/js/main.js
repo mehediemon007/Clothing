@@ -1,5 +1,11 @@
 ;(function($){
 
+    // WOW Animation
+    
+    $(document).ready(function () {
+        new WOW().init();
+    });
+
     $(".category-span").click(function(e){
         $(this).parent().toggleClass("active")
     })
