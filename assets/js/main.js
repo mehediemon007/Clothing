@@ -261,7 +261,7 @@
             itemsToLoad: 2,
             easing:"slide"
         });
-    }else if(page=="product-details.html"){
+    }else if(page=="product-details.htmll"){
 
         $('#cm-review').simpleLoadMore({
             item: '.load-more',
@@ -316,7 +316,7 @@
 
     var path = window.location.pathname;
     var page = path.split("/").pop();
-    if(page=="product-details.html"){
+    if(page=="product-details.htmll"){
 
         $('.slider-thumb').slick({
             // autoplay: true,
@@ -651,10 +651,12 @@
     // Sticky Nav
 
     const headerContainer = document.querySelector(".clo-header.fixed");
-    window.onscroll = ()=>{
+    if(headerContainer != null){
+        window.onscroll = ()=>{
             this.scrollY > 100 ? headerContainer.style.display = 'none' : headerContainer.style.display = 'block';
+        }
     }
-
+    
     // Price Range Filter
 
     const rangeInput = document.querySelectorAll(".range-input input"),
