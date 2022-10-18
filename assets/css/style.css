@@ -1517,8 +1517,9 @@ input[type="range"]::-webkit-slider-thumb{
     color: #fff;
     display: inline-block;
     line-height: 1;
+    font-size: 14px;
     font-weight: 700;
-    padding: 14px 50px;
+    padding: 14px 40px;
     text-transform: uppercase;
     transition: all 0.3s ease-out;
 }
@@ -1585,6 +1586,10 @@ input[type="range"]::-webkit-slider-thumb{
     padding-top: 20px;
 }
 
+.social-icons a:hover{
+    color: rgb(237, 27, 35);
+}
+
 .product-info .social-icons span {
     display: inline-block;
     font-size: 1rem;
@@ -1604,6 +1609,13 @@ input[type="range"]::-webkit-slider-thumb{
     cursor: pointer;
 }
 
+.clo-product-details .single-product-thumb .owl-stage{
+    width: 100% !important;
+}
+
 .clo-product-details .single-product-thumb .owl-item{
-    width: 100px !important;
+   display: block;
+   width: 100% !important;
+   margin-right: 0 !important;
+   margin-bottom: 8px;
 }
