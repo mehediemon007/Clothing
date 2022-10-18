@@ -1196,7 +1196,7 @@ ul.social-link li {
   
 .color-filter input:checked{
     padding: 4px;
-    box-shadow: 0 0 0 2px #fff,0 0 0 3px var(--dark-color);
+    box-shadow: 0 0 0 2px #fff,0 0 0 3px #3a3a3a;
 }
   
 .size-filter input{
