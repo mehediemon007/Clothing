@@ -304,11 +304,15 @@ input::placeholder{
     height: 20px;
     font-size: 12px;
     font-weight: 700;
-    color: var(--white-color);
-    background-color: rgb(237, 27, 35);
+    background-color: var(--white-color);
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
+}
+
+header.fixed span.product-count{
+    color: var(--white-color);
+    background-color: rgb(237, 27, 35);
 }
 
 .header-icon:hover{
