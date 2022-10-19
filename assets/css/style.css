@@ -2134,7 +2134,7 @@ input[type="range"]::-webkit-slider-thumb{
     height: 45px;
     font-weight: 700;
     color: var(--white-color);
-    background-color: var(--secondary-color);
+    background-color: rgba(58, 71, 84, 1);
     margin-top: 16px;
 }
 
