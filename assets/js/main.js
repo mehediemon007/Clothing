@@ -639,6 +639,16 @@
     $(".modal-close").on("click",function(){
         $(".clo-quick-view").removeClass("show")
     })
+
+    //Elevate Zoom
+    // if ($(".single-product-preview").length) {
+    //     $(".single-product-preview img").elevateZoom({
+    //         zoomType: "inner",
+    //         cursor: "crosshair",
+    //         zoomWindowFadeIn: 500,
+    //         zoomWindowFadeOut: 750
+    //     });
+    // }
     
 })(jQuery);
 
