@@ -641,14 +641,14 @@
     })
 
     //Elevate Zoom
-    // if ($(".single-product-preview").length) {
-    //     $(".single-product-preview img").elevateZoom({
-    //         zoomType: "inner",
-    //         cursor: "crosshair",
-    //         zoomWindowFadeIn: 500,
-    //         zoomWindowFadeOut: 750
-    //     });
-    // }
+    if ($(".single-product-preview").length) {
+        $(".single-product-preview .owl-item.active img").elevateZoom({
+            zoomType: "inner",
+            cursor: "crosshair",
+            zoomWindowFadeIn: 500,
+            zoomWindowFadeOut: 750
+        });
+    }
     
 })(jQuery);
 
