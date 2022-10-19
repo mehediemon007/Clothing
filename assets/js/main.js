@@ -117,12 +117,11 @@
         }
     })
 
-    $(".five-column-slider").owlCarousel({
-        items:5,
+    $(".four-column-slider").owlCarousel({
+        items:4,
         loop:true,
-        dots:false,
-        nav:true,
-        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        dots:true,
+        nav:false,
         margin:16,
         autoplay:true,
         responsive:{
@@ -138,9 +137,6 @@
             },
             1200:{
                 items:4
-            },
-            1400:{
-                items:5
             }
         }
     })
