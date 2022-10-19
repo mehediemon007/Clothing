@@ -320,6 +320,107 @@ header.fixed span.product-count{
     transform: translateY(-4px);
 }
 
+/* Nav Cart */
+
+.nav-cart {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 350px;
+    min-height: 60px;
+    color: var(--text-color);
+    font-weight: 700;
+    background-color: var(--white-color);
+    padding: 10px;
+    /* box-shadow: 2px 2px 10px rgb(0 0 0 / 10%); */
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: var(--transition);
+    z-index: 11;
+}
+
+.nav-cart::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: 15px;
+    background-color: var(--white-color);
+    transform: rotate(135deg);
+}
+
+.cart:hover .nav-cart {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.nav-cart-heading{
+    border-bottom: 1px solid #d3d3d3;
+    padding: 5px 0;
+    text-align: right;
+}
+
+.single-cart-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-color);
+    padding: 8px 8px 8px 0;
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    text-align: left;
+}
+
+.single-cart-product p,
+.single-cart-product span{
+    font-size: 14px;
+}
+
+.single-cart-product .product-details > a{
+    font-size: 15px;
+    color: var(--secondary-color) !important;
+    text-decoration: underline;
+}
+
+.single-cart-product .remove{
+    color: var(--secondary-color);
+}
+
+.nav-cart .cart-sub-total{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    background-color: rgba(238, 238, 238, 1);
+    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    padding: 8px 8px 4px;
+}
+
+.nav-cart .cart-btns{
+    display: flex;
+    gap: 8px;
+    background-color: rgba(230, 230, 230, 1);
+    padding: 12px 8px;
+}
+
+.nav-checkout {
+    display: block;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white-color) !important;
+    background-color: rgba(58, 71, 84, 1);
+    text-align: center;
+    line-height: 35px;
+}
+
+.nav-checkout:hover{
+    background-color: var(--secondary-color);
+}
+
 /* Hero Banner */
 
 .hero-banner-wpr{
@@ -1050,6 +1151,7 @@ ul.social-link li {
 .clo-footer-tooltip h4,
 .clo-footer-tooltip p{
     color: var(--white-color);
+    font-weight: 700;
     margin-bottom: 4px;
 }
 
@@ -1900,10 +2002,6 @@ input[type="range"]::-webkit-slider-thumb{
 
 .product-table .product-name{
     width: max-content;
-}
-
-.product-table .product-img{
-    width: 100px;
 }
 
 .wishlist-table td.wish-product{
