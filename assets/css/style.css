@@ -2203,7 +2203,8 @@ fieldset legend{
     border-bottom: 1px solid #d3d3d3 ;
 }
 
-input.form-control{
+input.form-control,
+select.form-control{
     font-weight: 700;
     color: rgba(51, 51, 51, 1);
     background-color: rgba(250, 250, 250, 1);
@@ -2211,7 +2212,8 @@ input.form-control{
     margin: 4px 0 8px;
 }
 
-input.form-control:focus{
+input.form-control:focus,
+select.form-control:focus{
     background-color: var(--white-color);
     box-shadow: none;
     border-color: var(--secondary-color);
@@ -2301,4 +2303,124 @@ input.form-control:focus{
 .account-edit-form input[type="checkbox"]:checked ~ .changing-field{
     height: auto;
     padding: 8px 0;
+}
+
+/* Checkout */
+
+.clo-checkout{
+    padding: 20px 0 50px;
+    font-weight: 700;
+}
+
+form.billing-infos label{
+    margin-bottom: 8px;
+}
+
+form.billing-infos .form-group{
+    margin-bottom: 14px;
+}
+
+form.billing-infos .select2-container .select2-selection--single{
+    width: 100%;
+    height: 38px;
+    border-color: #ced4da;
+}
+
+form.billing-infos .select2-selection__arrow{
+    height: 38px !important;
+}
+
+form.billing-infos .select2-container--default .select2-selection--single .select2-selection__rendered{
+    padding: 0 .75rem;
+    line-height: 38px;
+}
+
+.select2-dropdown{
+    z-index: 1;
+    font-weight: 700;
+}
+
+.clo-order-summary{
+    padding: 16px 20px;
+    border: 6px solid #EFEFEF;
+    border-radius: 5px;
+}
+
+.oreder-products .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 12px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.order-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin:10px 0;
+    min-height: 40px;
+}
+
+.order-total li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 1px solid #ced4da; 
+}
+
+.pay-method{
+    padding: 16px 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+.pay-method label{
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.pay-method input[type="radio"]{
+    appearance: none;
+}
+
+.pay-method label::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.2px solid var(--secondary-color);
+    transform: translateY(-50%);
+    transition: border-width .005s linear;
+}
+
+.pay-method h6{
+    margin-bottom: 0;
+}
+
+.pay-method .accordion{
+    position: relative;
+    height: 0px;
+    padding: 0 26px;
+    overflow: hidden;
+    transition: height var(--transition) ease-in-out, padding-top .3s ease-in-out;
+    z-index: 10;
+}
+
+.pay-method input[type="radio"]:checked ~ .accordion{
+
+    transition: height var(--transition) ease-in-out, padding-top .3s ease-in-out;
+}
+
+.pay-method input[type="radio"]:checked ~ .accordion{
+    height: max-content;
+    padding-top: 14px;
+}
+
+.pay-method input[type="radio"]:checked ~ label::before{
+    border-width: 5px;
 }
