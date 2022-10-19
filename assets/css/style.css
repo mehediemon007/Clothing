@@ -2141,3 +2141,164 @@ input[type="range"]::-webkit-slider-thumb{
 .total-btn:hover{
     background-color: rgba(58, 71, 84, 1);
 }
+
+/* Sign In & Sign Up */
+
+fieldset legend{
+    font-size: 1.15rem;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 8px 0;
+    margin-bottom: 24px;
+}
+
+.form-group .row{
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.form-group label{
+    font-size: .95rem;
+    text-align: right;
+}
+
+.form-group.required label::before{
+    content: "*";
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+    margin-right: 4px;
+}
+
+.form-group input.form-control::placeholder{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.sign-btn button{
+    width: max-content;
+    height: 40px;
+    color: var(--white-color);
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    padding: 0 20px;
+    border-radius: 3px;
+}
+
+.clo-signin{
+    min-height: 500px;
+    font-weight: 700;
+}
+
+.clo-signup{
+    font-weight: 700;
+}
+
+.signin-step{
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.signin-step h5{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d3d3d3 ;
+}
+
+input.form-control{
+    font-weight: 700;
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(250, 250, 250, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    margin: 4px 0 8px;
+}
+
+input.form-control:focus{
+    background-color: var(--white-color);
+    box-shadow: none;
+    border-color: var(--secondary-color);
+}
+
+.signin-step .sign-btn{
+    margin-top: 16px;
+}
+
+/* Account */
+
+.clo-acc-menu{
+    border: 1px solid #d3d3d3;
+    padding: 16px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.clo-acc-menu ul{
+    margin:8px 0;
+}
+
+.clo-acc-menu li a{
+    display: inline-block;
+    font-weight: 700;
+    margin: 2px 0;
+}
+
+.clo-acc-menu li a.active{
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+}
+
+.info-box{
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.box-title,
+.box-content,
+.box-action{
+    padding: 8px 16px;
+    background-color: #f5f5f5;
+    
+}
+
+.box-title{
+    border-bottom: 1px solid #d3d3d3;
+    border-radius: 4px 4px 0 0;
+}
+
+.box-action{
+    border-top: 1px solid #d3d3d3;
+    border-radius: 0 0 4px 4px;
+}
+
+.box-content{
+    background-color: var(--white-color);
+    min-height: 150px;
+}
+
+.box-action span{
+    color: var(--secondary-color);
+}
+
+.address-form input,
+.account-edit-form input:not([type="checkbox"]){
+    margin: 8px 0 16px;
+}
+
+.address-form legend,
+.account-edit-form legend{
+    font-size: 1.25rem;
+    border-bottom: none;
+    margin-bottom: 16px;
+}
+
+.account-edit-form .changing-field{
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: var(--transition) ease;
+}
+
+.account-edit-form input[type="checkbox"]:checked ~ .changing-field{
+    height: auto;
+    padding: 8px 0;
+}
