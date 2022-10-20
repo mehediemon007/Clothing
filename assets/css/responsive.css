@@ -39,13 +39,18 @@
 
 @media only screen and (max-width:991px){
 
-    
+    .categori-details{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* Max Width 575px */
 @media only screen and (max-width:575px){
     
-    
+    .form-group.required label{
+        text-align: left;
+    }
 }
 
 /* Max Width 480px */
