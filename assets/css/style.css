@@ -643,7 +643,8 @@ header.fixed span.product-count{
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     width: 100%;
-    height: auto;
+    height: 395px;
+    object-fit: cover;
 }
 
 .product-thumb:hover .has-second-image img {
