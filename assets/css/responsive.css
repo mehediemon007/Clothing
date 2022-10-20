@@ -71,6 +71,11 @@
         margin-bottom: 16px;
         transform: translate(0, 0);
     }
+
+    .middle-footer ul li,
+    .middle-footer ul li a{
+        font-size: 13px !important;
+    }
 }
 
 /* Max Width 380px */
