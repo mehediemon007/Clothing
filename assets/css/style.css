@@ -2101,7 +2101,7 @@ input[type="range"]::-webkit-slider-thumb{
     padding-left: 16px;
 }
 
-.filter-content {
+/* .filter-content {
     height: 0;
     overflow: hidden;
     -webkit-transition: height .3s ease;
@@ -2130,7 +2130,7 @@ input[type="range"]::-webkit-slider-thumb{
     display: block;
     font-size: .90rem;
     margin-bottom: 4px;
-}
+} */
 
 .single-calc{
     display: flex;
