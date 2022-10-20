@@ -36,6 +36,10 @@
         display: none !important;
     }
 
+    .header-icon:hover{
+        color: var(--white-color);
+    }
+
 }
 
 /* Max Width 1399px */
