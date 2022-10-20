@@ -273,13 +273,6 @@ input::placeholder{
     box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 }
 
-.clo-header.fixed{
-    position: fixed;
-    background-color: transparent;
-    box-shadow: none;
-    z-index: 10;
-}
-
 .header-wpr{
     display: flex;
     justify-content: space-between;
@@ -334,7 +327,6 @@ header.fixed span.product-count{
 }
 
 .header-icon:hover{
-    color: var(--white-color);
     transform: translateY(-4px);
 }
 

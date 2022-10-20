@@ -24,6 +24,13 @@
 /* Min Width 992px */
 @media only screen and (min-width:992px){
 
+    .clo-header.fixed{
+        position: fixed;
+        background-color: transparent;
+        box-shadow: none;
+        z-index: 10;
+    }
+
     .hero-banner-wpr .desktop-banner{
         display: block;
     }
@@ -64,9 +71,25 @@
 
 @media only screen and (max-width:991px){
 
-    .clo-header.fixed{
-        position: static;
+    .clo-header{
+        background-color: var(--white-color);
+    }
+
+    .header-wpr{
+        align-items: center;
+    }
+
+    .nav-list{
         display: none;
+    }
+
+    .logo img{
+        max-width: 100px;
+        height: 90px;
+    }
+
+    .header-icon{
+        color: var(--text-color);
     }
 
     .hero-banner-wpr .banner-item{
