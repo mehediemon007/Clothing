@@ -140,6 +140,23 @@
     .form-group.required label{
         text-align: left;
     }
+
+    .hero-banner-wpr.owl-carousel .owl-dots{
+        position: absolute;
+        bottom: 24px;
+        left: 48%;
+        transform: translateX(-48%)
+    }
+
+    .hero-banner-wpr.owl-carousel .owl-dot{
+        width: 10px;
+        height: 10px;
+        background: var(--white-color) !important;
+    }
+
+    .hero-banner-wpr.owl-carousel .owl-dot.active{
+        background: var(--secondary-color) !important;
+    }
 }
 
 /* Max Width 480px */

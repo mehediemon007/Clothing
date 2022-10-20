@@ -14,9 +14,17 @@
         items:1,
         loop:true,
         autoplay:true,
-        dots:false,
-        nav:true,
         navText:['<i class="icofont-thin-left"></i>','<i class="icofont-thin-right"></i>'],
+        responsive: {
+            0: {
+              dots:true,
+              nav:false
+            },
+            576: {
+                dots:false,
+                nav:true
+            }
+          }
     })
 
     $("#new-collections").owlCarousel({
@@ -33,7 +41,7 @@
         loop: true,
         lazyLoad: true,
         navText: ["<em class='porto-icon-chevron-left'></em>","<em class='porto-icon-chevron-right'></em>"],
-                    responsive: {
+        responsive: {
           0: {
             items:2
           },
