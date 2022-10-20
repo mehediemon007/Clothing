@@ -56,6 +56,10 @@
 /* Max Width 480px */
 @media only screen and (max-width:480px){
 
+    .video-post-info h6{
+        font-size: .95rem;
+    }
+
     .clo-footer-tooltip .item{
         text-align: center;
         padding-left: 0;
@@ -72,5 +76,9 @@
 /* Max Width 380px */
 @media only screen and (max-width:380px){
 
+    .video-post-info .read-more{
+        top: -40px;
+        left: -60%;
+    }
     
 }
