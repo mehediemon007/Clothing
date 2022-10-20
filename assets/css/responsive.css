@@ -1,7 +1,9 @@
 /* Min Width 1400px */
 @media only screen and (min-width:1400px){
     
-
+    .hero-banner-wpr .banner-item{
+        height: auto;
+    }
 }
 
 /* Min Width 1200px */
@@ -21,6 +23,14 @@
 
 /* Min Width 992px */
 @media only screen and (min-width:992px){
+
+    .hero-banner-wpr .desktop-banner{
+        display: block;
+    }
+
+    .hero-banner-wpr .mobile-banner{
+        display: none;
+    }
 
 }
 
@@ -54,8 +64,17 @@
 
 @media only screen and (max-width:991px){
 
+    .clo-header.fixed{
+        position: static;
+        display: none;
+    }
+
     .hero-banner-wpr .banner-item{
         height: auto;
+    }
+
+    .hero-banner-wpr .desktop-banner{
+        display: none !important;
     }
 
     .banner-content{
@@ -105,6 +124,23 @@
 
 /* Max Width 480px */
 @media only screen and (max-width:480px){
+
+    .hero-banner-wpr .banner-item{
+        height: 500px;
+    }
+
+    .hero-banner-wpr .banner-item img{
+        object-fit: cover;
+        object-position: left;
+    }
+
+    .banner-content h1{
+        font-size: 32px;
+    }
+
+    .banner-content p{
+        font-size: 24px;
+    }
 
     .product-thumb .btn-cart.btn span{
         display: none;

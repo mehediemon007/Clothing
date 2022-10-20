@@ -658,7 +658,7 @@
     // Sticky Nav
 
     const headerContainer = document.querySelector(".clo-header.fixed");
-    if(headerContainer != null){
+    if(headerContainer != null && window.width > 992){
         window.onscroll = ()=>{
             this.scrollY > 100 ? headerContainer.style.display = 'none' : headerContainer.style.display = 'block';
         }
