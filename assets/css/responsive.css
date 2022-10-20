@@ -44,6 +44,10 @@
         font-size: 45px;
     }
 
+    .quick-view-container{
+        width: 70%;
+    }
+
 }
 
 /* Max Width 991px */
@@ -146,6 +150,15 @@
     .middle-footer ul li,
     .middle-footer ul li a{
         font-size: 13px !important;
+    }
+
+    .quick-view-container{
+        width: 90%;
+    }
+
+    .modal-close{
+        top: -3px;
+        right: 1px;
     }
 }
 

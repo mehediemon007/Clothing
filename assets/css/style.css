@@ -1500,7 +1500,7 @@ input[type="range"]::-webkit-slider-thumb{
   
 .quick-view-container{
     position: relative;
-    width: 45%;
+    width: 58%;
     height: 85%;
     background-color: var(--white-color);
     padding: 24px;
@@ -1515,6 +1515,7 @@ input[type="range"]::-webkit-slider-thumb{
     font-size: 1.5rem;
     color: var(--primary-color);
     cursor: pointer;
+    z-index: 10;
 }
 
 .product-info h3 {
@@ -1524,6 +1525,11 @@ input[type="range"]::-webkit-slider-thumb{
 .product-info .rating-box-wrap {
     display: flex;
     align-items: center;
+}
+
+.quick-view-container .rating-box-wrap{
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .rating-box-wrap .rating-box {
@@ -1554,6 +1560,11 @@ input[type="range"]::-webkit-slider-thumb{
     line-height: 1;
     margin-left: 8px;
     text-decoration: underline;
+}
+
+.quick-view-container .review-status a{
+    margin-left: 0;
+    margin-right: 8px;
 }
 
 .review-status a:hover {
