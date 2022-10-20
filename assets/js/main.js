@@ -121,6 +121,7 @@
         items:4,
         loop:true,
         dots:true,
+        dotsEach: 4,
         nav:false,
         margin:16,
         autoplay:true,
