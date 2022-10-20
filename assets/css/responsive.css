@@ -241,6 +241,15 @@
         top: -3px;
         right: 1px;
     }
+
+    .clo-footer-tooltip h4{
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .clo-footer-tooltip p{
+        font-size: 14px;
+    }
 }
 
 /* Max Width 380px */
