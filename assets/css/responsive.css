@@ -29,7 +29,7 @@
     }
 
     .hero-banner-wpr .mobile-banner{
-        display: none;
+        display: none !important;
     }
 
 }
@@ -135,11 +135,15 @@
     }
 
     .banner-content h1{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .banner-content p{
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .banner-content .shop-btn{
+        width: 150px;
     }
 
     .product-thumb .btn-cart.btn span{
