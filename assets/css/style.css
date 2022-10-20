@@ -856,7 +856,7 @@ header.fixed span.product-count{
     padding: 0 10px;
     flex: initial;
     height: 35px;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .product-thumb .btn-cart.btn:hover{
@@ -867,6 +867,7 @@ header.fixed span.product-count{
     font-size: 18px;
 }
 
+.product-thumb .btn-cart.btn,
 .product-thumb .btn-cart.btn span{
     font-size: 12px;
     color: rgba(255, 255, 255, 1);

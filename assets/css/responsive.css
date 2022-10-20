@@ -102,6 +102,10 @@
 /* Max Width 480px */
 @media only screen and (max-width:480px){
 
+    .product-thumb .btn-cart.btn span{
+        display: none;
+    }
+
     .btn-theme,
     .product-info .btn-wishlist {
         font-size: 12px;
