@@ -299,6 +299,14 @@
         height: 70px;
     }
 
+    .banner-content h1{
+        font-size: 28px;
+    }
+
+    .banner-content p{
+        font-size: 18px;
+    }
+
     .product-thumb .btn-compare{
         display: none;
     }
