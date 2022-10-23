@@ -472,17 +472,17 @@
         }
     }
 
-    if($(".nav-toggle .fa-bars").length){
+    if($(".nav-toggle").length){
 
-        $(".nav-toggle .fa-bars").on("click",function(){
-            $(".woo-product-nav").addClass("show")
+        $(".nav-toggle").on("click",function(){
+            $(".nav-right .nav-list").addClass("show")
         })
     }
 
-    if($(".nav-toggle .fa-times").length){
+    if($(".nav-close").length){
         
-        $(".nav-toggle .fa-times").on("click",function(){
-            $(".woo-product-nav").removeClass("show")
+        $(".nav-close").on("click",function(){
+            $(".nav-right .nav-list").removeClass("show")
         })
     }
 
