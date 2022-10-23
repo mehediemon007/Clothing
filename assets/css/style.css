@@ -2323,7 +2323,7 @@ select.form-control:focus{
     font-size: 1.25rem;
     font-weight: 700;
     border-bottom: none;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 }
 
 .account-edit-form .changing-field{
