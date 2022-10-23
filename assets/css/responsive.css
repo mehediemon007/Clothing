@@ -118,6 +118,11 @@
         color: var(--text-color);
     }
 
+    .header-icon span.product-count{
+        color: var(--white-color);
+        background-color: var(--secondary-color);
+    }
+
     .hero-banner-wpr .banner-item{
         height: auto;
     }
