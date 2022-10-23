@@ -289,6 +289,10 @@
 /* Max Width 380px */
 @media only screen and (max-width:380px){
 
+    .product-thumb .btn-compare{
+        display: none;
+    }
+
     .video-post-info .read-more{
         top: -40px;
         left: -65%;
@@ -310,10 +314,6 @@
 
     .banner-content p{
         font-size: 18px;
-    }
-
-    .product-thumb .btn-compare{
-        display: none;
     }
 
     .qty-add-to-cart-wrap{
