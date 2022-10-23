@@ -293,12 +293,7 @@
         top: -40px;
         left: -65%;
     }
-    
-}
 
-/* Max Width 360px */
-@media only screen and (max-width:360px){
-    
     .product-thumb .stepper{
         display: none;
     }
@@ -316,6 +311,11 @@
         padding: 14px 8px;
     }
     
+}
+
+/* Max Width 360px */
+@media only screen and (max-width:360px){
+
 }
 
 /* Max Width 320px */
