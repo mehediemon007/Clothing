@@ -289,13 +289,31 @@
 /* Max Width 380px */
 @media only screen and (max-width:380px){
 
-    .product-thumb .btn-compare{
-        display: none;
-    }
-
     .video-post-info .read-more{
         top: -40px;
         left: -65%;
+    }
+    
+}
+
+/* Max Width 360px */
+@media only screen and (max-width:360px){
+    
+    .product-thumb .stepper{
+        display: none;
+    }
+
+    .product-layout .button-group{
+        justify-content: center;
+    }
+
+    .qty-add-to-cart-wrap{
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .btn-theme, .product-info .btn-wishlist{
+        padding: 14px 8px;
     }
     
 }
@@ -316,9 +334,4 @@
         font-size: 18px;
     }
 
-    .qty-add-to-cart-wrap{
-        flex-wrap: wrap;
-        gap: 8px;
-    }
-    
 }
