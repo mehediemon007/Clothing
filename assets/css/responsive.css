@@ -286,7 +286,26 @@
 
     .video-post-info .read-more{
         top: -40px;
-        left: -60%;
+        left: -65%;
+    }
+    
+}
+
+/* Max Width 320px */
+@media only screen and (max-width:320px){
+
+    .logo img{
+        max-width: 75px;
+        height: 70px;
+    }
+
+    .product-thumb .btn-compare{
+        display: none;
+    }
+
+    .qty-add-to-cart-wrap{
+        flex-wrap: wrap;
+        gap: 8px;
     }
     
 }
