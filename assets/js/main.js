@@ -658,6 +658,12 @@
     //         zoomWindowFadeOut: 750
     //     });
     // }
+
+    // Magnify Image
+
+    $('.zoomImg').zoom({
+        magnify: 1.5
+    });
     
 })(jQuery);
 
